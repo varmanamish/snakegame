@@ -199,7 +199,7 @@ class _SnakeGameState extends State<SnakeGame> {
                   else if (index == foodPos) {
                     return Container(
                       margin: const EdgeInsets.all(1),
-                      color: Colors.green,
+                      color: Colors.blue,
                     );
                   }
                   //blank tile
@@ -213,8 +213,8 @@ class _SnakeGameState extends State<SnakeGame> {
             //restart button
             MaterialButton(
               onPressed: startGame,
-              child: Text('Play'),
               color: Colors.green,
+              child: const Text('Play'),
             )
           ],
         ),
