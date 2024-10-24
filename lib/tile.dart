@@ -11,4 +11,10 @@ class Tile extends StatelessWidget {
       color: lightOn ? Colors.white : Colors.grey[900],
     );
   }
+  /*Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.all(1),
+      color: lightOn ? Colors.white : Colors.grey[900],
+    );
+  }*/
 }
